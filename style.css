@@ -1,0 +1,53 @@
+body{
+     margin: 0; 
+     padding: 0; 
+    background: linear-gradient(#a3b2c2,#cfbca7);
+    height: 100vh;
+}
+.sign{
+    position: absolute;
+    background: rgb(103, 103, 189);
+    border-radius: 15px;
+    width: 450px;
+    top: 20%;
+    left: 30%;
+}
+
+.sinup{
+    font-size: 40px;
+    margin-left: 15px;
+    
+}
+.login{
+    font-size: 17px;
+    margin-left: 205px;
+    cursor: pointer;
+
+}
+.sign form{
+    padding: 0 17px;
+    box-sizing: border-box;
+}
+form .list{
+    position: relative;
+    margin: 10px 0;
+}
+.list input{
+    width: 55%;
+    height: 30px;
+    border-radius: 15px;
+    outline: none;
+
+}
+.list label{
+    color: white;
+    font-size: 15px;
+}
+.dub-btn{
+    margin: 10px;
+    border-radius: 15px;
+    padding: 12px 12px;
+    color: white;
+    background: yellowgreen;
+    cursor: pointer;
+}
